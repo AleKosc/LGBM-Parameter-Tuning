@@ -15,6 +15,11 @@ I also list a few parameters that are also useful but didn't really fit in the V
 - enable_load_from_binary_file = True --> Set to True if a binary file exists (created through save_binary) but you don't want to use it.
 ### Parallelisation
 - tree_learner = "serial" --> Set to "feature", "data" or "voting" if you can use parallelisation.
+
+<p align="left">
+  <img src="https://github.com/AleKosc/LGBM-Parameter-Tuning/blob/master/Images/parallel.PNG">
+</p>
+
 - num_threads = no. of real CPU cores
 ## Over-Fitting
 - min_data_in_leaf = 20 --> Increase this number to avoid overfitting but it can lead to lower accuracy.
