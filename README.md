@@ -2,7 +2,7 @@
 
 LightGBM or similar ML algorithms have a large number of parameters and it's not always easy to decide which and how to tune them. In this repo I want to explore which parameters are available, their default settings, and what their effects are on the model. As you can see, some of them have a trade-off, which is why I placed them in the overlapping parts. For example, the learning rate affects how fast the model is learning. A high learning rate will lead to faster learning but the model might not find the optimal solution as it might skip over it. Reversely, a low learning rate will likely find a better solution but training will take much longer.
 
-I also list a few parameters that are also useful but didn't really fit in the Venn diagram
+I also list a few parameters that are also useful but didn't really fit in the Venn diagram. For a complete list of parameters see: https://lightgbm.readthedocs.io/en/latest/Parameters.html. 
 
 <p align="center">
   <img src="https://github.com/AleKosc/LGBM-Parameter-Tuning/blob/master/Images/Parameter-Tradeoff.PNG" width="480">
